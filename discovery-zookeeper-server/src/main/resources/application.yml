@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true
+  application:
+    name: service-provider
+server:
+  port: 8080
+
