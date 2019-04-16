@@ -16,11 +16,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>eureka-server</module>
-        <module>provider-service</module>
-        <module>eureka-cluster-server</module>
+        <module>discovery-eureka-cluster-server</module>
+        <module>discovery-eureka-server</module>
         <module>discovery-zookeeper-server</module>
         <module>discovery-consul-server</module>
+        <module>provider-service</module>
     </modules>
 
     <name>eureka.demo</name>
